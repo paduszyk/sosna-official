@@ -15,3 +15,8 @@ repos:
           "--config=pyproject.toml",
         ]
         exclude: '(migrations)'
+  - repo: https://github.com/pycqa/flake8
+    rev: 5.0.4
+    hooks:
+      - id: flake8
+        exclude: '(migrations)'
