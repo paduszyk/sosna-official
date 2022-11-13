@@ -1,3 +1,19 @@
 [tool.black]
 line-length = 88
 exclude = "(migrations)"
+
+[tool.isort]
+profile = "black"
+known_django = "django"
+known_first_party = "core"
+known_apps = "apps"
+sections = [
+    "FUTURE",
+    "STDLIB",
+    "THIRDPARTY",
+    "DJANGO",
+    "FIRSTPARTY",
+    "APPS",
+    "LOCALFOLDER",
+]
+skip = ["migrations"]

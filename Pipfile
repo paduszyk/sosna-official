@@ -9,6 +9,7 @@ name = "pypi"
 black = "*"
 docformatter = "*"
 flake8 = "*"
+isort = "*"
 pre-commit = "*"
 
 [requires]
