@@ -13,5 +13,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Dependencies for both development and production installed.
 - Linters set up.
-- Django project configured, mainly for both development.
+- Django project configured, mainly for development.
 - Testing suite (`unittest`-based setup from Django) set up.
