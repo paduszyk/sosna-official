@@ -17,3 +17,19 @@ sections = [
     "LOCALFOLDER",
 ]
 skip = ["migrations"]
+
+[tool.coverage."run"]
+branch = true
+source = ["src"]
+omit = [
+    "*/migrations/*",
+    "src/manage.py",
+    "src/core/settings/*.py",
+    "src/core/urls/*.py",
+    "src/core/wsgi.py",
+]
+
+[tool.coverage.report]
+show_missing = true
+skip_empty = true
+skip_covered = true
