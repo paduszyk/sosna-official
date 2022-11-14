@@ -10,6 +10,7 @@ BASE_DIR = PROJECT_DIR.parent
 # Apps
 
 INSTALLED_APPS = [
+    "apps.users",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -56,7 +57,7 @@ TEMPLATES = [
 
 # Users & authentication
 
-AUTH_USER_MODEL = "auth.User"
+AUTH_USER_MODEL = "users.User"
 
 
 # Internationalization
